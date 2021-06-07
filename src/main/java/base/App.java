@@ -44,7 +44,47 @@ public class App
         System.out.print("What is the number of the month? ");
         int monthNumber =  number1.nextInt();
 
-        System.out.println("The name of the month is " + months[monthNumber - 1]);
+        switch (monthNumber) {
+            case 1:
+                System.out.println("The name of the month is " + months[0] + ".");
+                break;
+            case 2:
+                System.out.println("The name of the month is " + months[1] + ".");
+                break;
+            case 3:
+                System.out.println("The name of the month is " + months[2] + ".");
+                break;
+            case 4:
+                System.out.println("The name of the month is " + months[3] + ".");
+                break;
+            case 5:
+                System.out.println("The name of the month is " + months[4] + ".");
+                break;
+            case 6:
+                System.out.println("The name of the month is " + months[5] + ".");
+                break;
+            case 7:
+                System.out.println("The name of the month is " + months[6] + ".");
+                break;
+            case 8:
+                System.out.println("The name of the month is " + months[7] + ".");
+                break;
+            case 9:
+                System.out.println("The name of the month is " + months[8] + ".");
+                break;
+            case 10:
+                System.out.println("The name of the month is " + months[9] + ".");
+                break;
+            case 11:
+                System.out.println("The name of the month is " + months[10] + ".");
+                break;
+            case 12:
+                System.out.println("The name of the month is " + months[11] + ".");
+                break;
+            default:
+                System.out.println("invalid inputs");
+                break;
+        }
 
     }
 
