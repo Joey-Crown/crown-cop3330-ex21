@@ -44,6 +44,7 @@ public class App
         System.out.print("What is the number of the month? ");
         int monthNumber =  number1.nextInt();
 
+        // switch statement that takes the number of the month and returns the name of the month
         switch (monthNumber) {
             case 1:
                 System.out.println("The name of the month is " + months[0] + ".");
